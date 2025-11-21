@@ -1,15 +1,15 @@
 #include "animal.h"
 #include "dog.h"
 #include <iostream>
-#include <windows.h>
+#include <windows.h>        //Ääkkösiä varten
 
 
 using namespace std;
 
 int main()
 {
-    SetConsoleOutputCP(CP_UTF8);
-    SetConsoleCP(CP_UTF8);
+    SetConsoleOutputCP(CP_UTF8);    //Ääkköset
+    SetConsoleCP(CP_UTF8);          //kuntoon
 
     Animal objAnimal;
     Dog objDog;

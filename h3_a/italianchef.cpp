@@ -24,12 +24,3 @@ void ItalianChef::makesPasta()
     cout << "Italian chef " << name << " makes pasta" << endl;
 }
 
-void ItalianChef::makeSalad()
-{
-    cout << "Chef " << name << " makes salad" << endl;
-}
-
-void ItalianChef::makeSoup()
-{
-    cout << "Chef " << name << " makes soup" << endl;
-}

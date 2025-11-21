@@ -10,8 +10,8 @@ public:
     ~ItalianChef();
     string GetName();
     void makesPasta();
-    void makeSalad();
-    void makeSoup();
+    //void makeSalad();
+    //void makeSoup();
 };
 
 #endif // ITALIANCHEF_H
